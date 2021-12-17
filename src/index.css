@@ -1,0 +1,72 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.bgcolor {
+  background: #9c27b0;
+}
+
+.cards {
+  width: 13rem;
+  height: 75vh;
+}
+.para-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+
+.cards img {
+  height: 200px;
+}
+#features {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #9c27b0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 575.2px) {
+  .cards {
+    margin-left: 130px;
+  }
+  #features {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #9c27b0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+#reg {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #9c27b0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Sbutton{
+    text-align: center;
+}
+
+.review{
+    width: 100%;
+}
+
+#jumR{
+    text-align: center;
+}
